@@ -10,5 +10,6 @@ btn.addEventListener(
         tg.MainButton.setText("Сообщение отправлено");
         tg.MainButton.show();
         tg.sendData("testtest");
+        tg.close();
     }
  );
